@@ -9,3 +9,6 @@ body {
 .title {
     color: white;
 }
+#output {
+    display: none
+}

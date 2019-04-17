@@ -11,9 +11,21 @@ input.addEventListener("input", convert)
 function convert() {
 // console.log("hello from convert")
 
-// Get Value of User Input
-var value = input.value;
-// console.log(value)
+    // Get Value of User Input
+    var value = input.value;
+    // console.log(value)
+    var output = document.querySelector("#output");
+    // console.log(output)
+
+    if(value !== "") {
+        // Show Output
+    
+        output.style.display = "block";
+    
+    } else {
+        output.style.display = "none";
+    }
+
 
     // Grams
     document.querySelector("#Grams").textContent = value * 453.592;
