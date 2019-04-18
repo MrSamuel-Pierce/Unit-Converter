@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" herf="style.css">
+    <title>Unit Converter</title>
+</head>
+<body id="bg-dark">
+    <div class="container">
+        <h1 class="text-center mb-4"><span>Unit</span> Converter</h1>
+        <div class="input-group mb-3">
+            <input type="number" class="form-control" id="input" name="input" placeholder="Enter Value Here...">
+            <div class="input-group-append">
+                <select class="btn btn-light" name="unit" id="unit">
+                <!--22.8 rega'im = one second
+                // 22 yards = one chain
+                1 day = 24 hours (sha'ah)
+                1 hour = 1080 parts (1080 p)
+                (halaqim) (each heleq = 3 1/3 sec.)1 part (heleq) = 76 moments (rega)
+                1 rega = 0.04386 of a second-->
+                <optgroup label="Time">
+                    <option>Heleq</option>
+                    <option>Parts</option>
+                    <option>Raga</option>
+                    <option>Seconds</option>
+                    <option>Shaah</option>
+                    <option>Hours</option>
+                    <option>Days</option>
+                </optgroup>
+                <optgroup label="Temperature">
+                    <option>Celsius</option>
+                    <option>Fahrenheit</option>
+                    <option>Ziv</option>
+                    <option>Ethanim</option>
+                </optgroup> 
+                <optgroup label="Weight">
+                    <option>lbs</option>
+                    <option>Mina</option>
+                    <option>Talent</option>
+                </optgroup> 
+                <optgroup label="Distance">
+                    <option>Yards</option>
+                    <option>Chains</option>
+                    <option>Miles</option>
+                </optgroup> 
+                </select>
+            </div>
+        </div>
+        <section id="output">
+        <!--Grams-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header" id="">
+            <h4>Grams:</h4>
+            <div id="Grams"></div>
+            </div>
+        </div>
+        <!--KiloGrams-->
+        <div class="card bg-light mb-3">
+            <div class="card-header">
+            <h4>Kilograms:</h4>
+            <div id="Kilograms"></div>
+            </div>
+        </div>
+        <!--Ounces-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header">
+            <h4>Ounces:</h4>
+            <div id="Ounces"></div>
+            </div>
+        </div>
+        </section>
+    </div>
+    <script src="main.js"></script> 
+</body>
+</html>

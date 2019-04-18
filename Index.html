@@ -14,29 +14,54 @@
         <div class="input-group mb-3">
             <input type="number" class="form-control" id="input" name="input" placeholder="Enter Value Here...">
             <div class="input-group-append">
-            <span class="input-group-text">lbs</span>
+        <select class="btn btn-primary" name="unit" id="unit">
+            <!--1 shekel = 24 giru
+            1 mina = 60 shekels
+            1 talent = 60 mina-->
+        <optgroup label="Weight">
+            <option>lbs</option>
+            <option>grams</option>
+            <option>kilograms</option>
+            <option>mina</option>
+            <option>shekles</option>
+            <option>giru</option>
+        </optgroup> 
+        <optgroup label="Time">
+            <option>hours</option>
+            <option>minutes</option>
+            <option>seconds</option>
+        </optgroup> 
+        <optgroup label="Distance">
+            <option>meters</option>
+            <option>cubits</option>
+            <option>miles</option>
+            <option>yards</option>
+            <option>inches</option>
+            <option>centimeters</option>
+        </optgroup> 
+        </select>
             </div>
         </div>
-        <section>
+        <section id="output">
             <!--Grams-->
             <div class="card bg-primary mb-3">
-                <div class="card-header">
+                <div class="card-header" id="card-1">
                 <h4>Grams:</h4>
-                <div id="Grams"></div>
+                <div></div>
                 </div>
             </div>
             <!--KiloGrams-->
             <div class="card bg-light mb-3">
-                <div class="card-header">
+                <div class="card-header" id="card-2">
                 <h4>Kilograms:</h4>
-                <div id="Kilograms"></div>
+                <div></div>
                 </div>
                 </div>
             <!--Ounces-->
             <div class="card bg-danger mb-3">
-                <div class="card-header">
+                <div class="card-header" id="card-3">
                 <h4>Ounces:</h4>
-                <div id="Ounces"></div>
+                <div></div>
                 </div>
                 </div>
         </section>
