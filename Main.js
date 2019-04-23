@@ -348,21 +348,643 @@ function convert() {
             convertEthanim();
             break;
 
+        case "minah":
+            convertMinah();
+            break;
         
-        
+            case "zuzim":
+            convertZuzim();
+            break;
+
+            case "seloim":
+            convertSeloim();
+            break;
+
+            case "adashah":
+            convertAdashah();
+            break;
+
+            case "amot":
+            convertAmot();
+            break;
+
+            case "searah":
+            convertSearah();
+            break;
+
+            case "geris":
+            convertGeris();
+            break;
     }   
 }
 
-function convertLbs() {
+
+var card1 = document.querySelector("#card-1");
+var card2 = document.querySelector("#card-2");
+var card3 = document.querySelector("#card-3");
+var card4 = document.querySelector("#card-4");
+var card5 = document.querySelector("#card-5");
+var card6 = document.querySelector("#card-6");
+var card7 = document.querySelector("#card-7");
+var card8 = document.querySelector("#card-8");
+var card9 = document.querySelector("#card-9");
+var card10 = document.querySelector("#card-10");
+var card11 = document.querySelector("#card-11");
+var card12 = document.querySelector("#card-12");
+var card13 = document.querySelector("#card-13");
+var card14 = document.querySelector("#card-14");
+var card15 = document.querySelector("#card-15");
+
+
+
+function convertLbs(value) {
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
  // Grams
- document.querySelector("#Grams").textContent = value * 453.592;
+ //document.querySelector("#Grams").textContent = value * 453.592;
 
  // Kilograms
- document.querySelector("#Kilograms").textContent = value * 453.592 / 1000;
+ //document.querySelector("#Kilograms").textContent = value * 453.592 / 1000;
 
  // Ounces
- document.querySelector("#Ounces").textContent = value * 16;
+ //document.querySelector("#Ounces").textContent = value * 16;
 }
+
+function convertLbs(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertGrams(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertKilograms(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertMina(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertShekles(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertGiru(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertHours(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertMinutes(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertSeconds(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertMeters(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertCubits(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertMiles(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertYards(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertInches(value)
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+function convertCentimeters(value)
+
+
+card1.querySelector('h4').textContent="Grams:"
+card2.querySelector('h4').textContent="KiloGrams:"
+card3.querySelector('h4').textContent="Ounces:"
+card4.querySelector('h4').textContent="Shekels:"
+card5.querySelector('h4').textContent="Giru:"
+card6.querySelector('h4').textContent="Talent:"
+card7.querySelector('h4').textContent="Mina"
+card8.querySelector('h4').textContent="Adashah"
+card9.querySelector('h4').textContent="Searot"
+card10.querySelector('h4').textContent="Amot"
+card11.querySelector('h4').textContent="Searah"
+card12.querySelector('h4').textContent="Geris"
+card13.querySelector('h4').textContent="Tefahim"
+card14.querySelector('h4').textContent="Zeret"
+card15.querySelector('h4').textContent="Palms"
+
+
+card1.querySelector('div').textContent= value
+card2.querySelector('div').textContent= value
+card3.querySelector('div').textContent= value
+card4.querySelector('div').textContent= value
+card5.querySelector('div').textContent= value
+card6.querySelector('div').textContent= value
+card7.querySelector('div').textContent= value
+card8.querySelector('div').textContent= value
+card9.querySelector('div').textContent= value
+card10.querySelector('div').textContent= value
+card11.querySelector('div').textContent= value
+card12.querySelector('div').textContent= value
+card13.querySelector('div').textContent= value
+card14.querySelector('div').textContent= value
+card15.querySelector('div').textContent= value
+
+
+
 
     // NFL Secrets
 
